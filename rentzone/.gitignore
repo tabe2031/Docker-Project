@@ -1,2 +1,4 @@
 Dockerfile-reference
 build_image.ps1
+flyway.conf
+
