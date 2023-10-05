@@ -1,0 +1,15 @@
+databaseType = "MySql"
+name = "flyway"
+id = "fd79cff1-ee86-46de-a1f4-da221d94d96f"
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+schemaModel = "schema-model"
+
+[flyway]
+cleanDisabled = false
+locations = ["filesystem:sql"]
+
+[redgateCompare]
+filterFile = "filter.rgf"

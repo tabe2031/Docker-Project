@@ -23,10 +23,11 @@ docker push <repository-uri>
   
 ----------------------------------------------------------------
 
+#For Windows
 # to create an ssh tunnel in powershell, execute the following command:
-ssh -i <key_pier.pem> ec2-user@<public-ip> -L 3306:<rds-endpoint>:3306 -N
+ssh -i <key_pier.pem> ec2-user@<public-ipv4> -L 3306:<rds-endpoint>:3306 -N (Port 3306 represents the local port we intend to use for the tunnel on our computer and it can be any other port).
 
-
+#For Mac
 # to create an ssh tunnel in linux or macOS, execute the following commands:
 Note: Be sure to replace YOUR_EC2_KEY, LOCAL_PORT, RDS_ENDPOINT, REMOTE_PORT, EC2_USER, and EC2_HOST with your relevant information.
 
