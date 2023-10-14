@@ -17,6 +17,7 @@ docker tag <image-tag> <repository-uri>
 
 # login to ecr
 aws ecr get-login-password | docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.<region>.amazonaws.com
+aws ecr get-login-password | docker login --username AWS --password-stdin 299795924163.dkr.ecr.us-west-2.amazonaws.com
 
 # push docker image to ecr repository 
 docker push <repository-uri>
