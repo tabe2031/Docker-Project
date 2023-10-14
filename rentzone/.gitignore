@@ -1,8 +1,8 @@
 Dockerfile-reference
-build_image.ps1
 flyway.conf
-rentzone.env
 commands.txt
+build_image.ps1
+rentzone.env
 
 flyway.user.toml
 flyway.toml
